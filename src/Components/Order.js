@@ -80,8 +80,10 @@ const onSubmit = () => {
     console.log(newOrder)
 }
 
+
+
 const postOrder = newOrder => {
-    axios.post(`https://reqres.in/`, newOrder)
+    axios.post(`https://reqres.in/order`, newOrder)
     .then(res => {
       setOrders([newOrder, ...orders])
     })
@@ -210,13 +212,15 @@ const postOrder = newOrder => {
                      placeholder="Anything else you'd like to add?"
                      value={formValue.SpecialMsg}
                      ></input>
-                </form>
                 <Link to="/delivery">
-                <button 
-                    className="submit_Button"
-                    onClick={onSubmit} 
-                > ORDER! </button>
+                    <button 
+                        className="submit_Button"
+                        id="order-button"
+                        onClick={onSubmit} 
+                    > ORDER! </button>
                 </Link>
+                </form>
+                
             </div>
         </div>
     )
