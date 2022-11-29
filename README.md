@@ -20,7 +20,7 @@ You may use the following wireframes as guidance as you design your site but it 
 
 [Home Page](https://github.com/bloominstituteoftechnology/web-sprint-challenge-single-page-applications/blob/main/Assets/Homepage.png)
 
-[Confirmation](https://github.com/bloominstituteoftechnology/web-sprint-challenge-single-page-applications/blob/main/Assets/Confirmation.png)
+[Confirmation](https://github.com/bloominstituteoftechnology/web-sprint-challenge-single-page-applications/blob/main/Assets/Confirmatiown.png)
 
 ### Commits
 

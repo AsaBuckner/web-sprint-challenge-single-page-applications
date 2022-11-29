@@ -1,38 +1,109 @@
-.App {
+/*Navigation Bar */
+
+.link{
+  
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  padding: .7rem;
+
+
+}
+
+.spacer{
+  padding-left: 20px;
+}
+
+.Links{
+  display: flex;
+  flex-direction: row;
+}
+
+.logo{
+  width: 7rem;
+  height: 8rem;
+}
+
+.logo img{
+  height: inherit;
+  width: inherit;
+}
+
+.navBarWrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+h1 {
+  font-size: 45px;
+}
+
+
+
+/* Home Page CSS */
+
+
+.caroselDiv{
+  display: flex;
+  background:url(https://static01.nyt.com/images/2014/04/09/dining/09JPPIZZA2/09JPPIZZA2-superJumbo-v3.jpg);
+  background-size:100%;
+  background-repeat: no-repeat;
+  width:88% ;
+  height:30rem;
+  align-self: center;
+
+  justify-content: center;
+}
+.caroselDiv h2{
+  align-self: center;
   text-align: center;
+  color: white;
+  font-size: 48px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.homeWrapper{
+display: flex;
+flex-direction: column;
+justify-content: right;
+border: 5px solid blue;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Pizza{
+  width: inherit;
+  height: inherit;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.storeImage{
+  width: 15rem;
+  height: 15em;
+}
+
+.restaurantWrapper{
+  display: flex;
+  border: 3px solid red;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.individualRestaurant{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.individualRestaurant p{
+margin: 2px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.individualRestaurant h2{
+  align-self: center;
 }
+/* Order CSS */
+
+
+
+
+
+/* Delivery CSS */
+
